@@ -26,6 +26,7 @@ namespace GreenCarp {
 
 		public static void OnGameEngineStart(GreenHellGame Game) {
 			Console.WriteLine("Game engine started!");
+			Game.m_WasCompanyLogo = true;
 			//CursorManager.Get().ShowCursor(true);
 		}
 	}

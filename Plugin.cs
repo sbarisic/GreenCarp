@@ -20,7 +20,7 @@ namespace GreenCarp {
 
 			HarmonyInstance = Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
 
-			P2PSession.MAX_PLAYERS = 8;
+			P2PSession.MAX_PLAYERS = 16;
 			GreenHellGame.DEBUG_LOAD_SAVE_ACHIEVEMENTS = true;
 		}
 

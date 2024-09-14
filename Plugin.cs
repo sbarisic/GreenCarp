@@ -28,6 +28,10 @@ namespace GreenCarp {
 			Console.WriteLine("Game engine started!");
 			Game.m_WasCompanyLogo = true;
 			//CursorManager.Get().ShowCursor(true);
+
+			//Player Ply = null;
+			//Ply.TakeDamage(null);
+			//Ply.CanReceiveDamageOfType(Enums.DamageType.Cut);
 		}
 	}
 

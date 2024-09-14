@@ -56,6 +56,7 @@ namespace GreenCarp {
 
 			if (TryParseCommand(Command, out string[] Tok)) {
 				if (Tok[0] == "save") {
+					Print("Saving game");
 					SaveGame.Save();
 				} else {
 					Print("Uknown command: " + Tok[0]);

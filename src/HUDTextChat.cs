@@ -16,6 +16,7 @@ namespace GreenCarp {
 				return true;
 
 			string ChatMsg = __instance.m_Field.text.Trim();
+
 			if (ChatCommands.OnChatCommand("", ChatMsg, (Msg) => {
 				__instance.m_History.StoreMessage(Msg, null, Color.yellow);
 			})) {
@@ -65,7 +66,7 @@ namespace GreenCarp {
 				//P2PSession.Instance.SendTextChatMessage(CmdMsg);
 			});
 
-			return true;
+			return false;
 
 			/*if (Msg.StartsWith("/")) {
 				string Cmd = Msg.Substring(1);
